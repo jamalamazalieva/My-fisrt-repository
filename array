@@ -1,0 +1,18 @@
+#include<iostream.h>
+#include<time.h>
+int const n=10;
+main(){
+int a[n];
+int s=0, i;
+randomize();
+for(i=0; i<n ; i++){
+a[i]=random(101)-50;
+cout<<a[i];
+}
+cout<<endl;
+for(i=0; i<n; i++){
+s=s+a[i];
+}
+cout<<"arrays sum: "<<s<<endl;
+
+}
